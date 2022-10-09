@@ -1,0 +1,106 @@
+/* just some image repeat it self */
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url('/asset/image/food-dodle.jpg');
+    background-size: auto;
+}
+
+html {
+    font-size: 18px;
+    font-family: ;
+}
+
+/* all the attribute for the h1 title */
+.title-des {
+    width: fit-content;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 16px;
+    margin: 10px;
+    background-color: aliceblue;
+}
+
+/* The black hanging on the top of the web */
+.Header {
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0;
+}
+
+
+/* id for the big boi */
+#BigTitle {
+    padding: 5px;
+    background-color: aquamarine;
+    font-size: 4rem;
+    margin-top: 100px;
+}
+
+/* Make all of them on the straight line */
+#nav>li {
+    display: inline-block;
+    line-height: 60px;
+    position: relative;
+    list-style-type: none;
+
+}
+
+/* Menu Food About Line */
+#nav>li>a {
+    color: aliceblue;
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+}
+
+/* turn off the point in front of the list */
+#nav ul ul {
+    list-style-type: none;
+
+}
+
+/* show the class Food */
+#nav li:hover .SubHeader {
+    display: block;
+}
+/* Hide the class Food */
+/* and Black box for subheader */
+#nav .SubHeader {
+    position: absolute;
+    background-color: black;
+    padding: 10px;
+    list-style-type: none;
+    display: none;
+}
+
+/* Sub header for food in tab a*/
+#nav li>ul>li>a {
+    font-size: 15px;
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/* Hover Menu Food About Line */
+#nav li:hover>a {
+    background-color: rgba(127, 255, 212, 0.675);
+    color: aliceblue;
+}
+
+#nav li ul li:hover>a {
+    background-color: rgba(255, 0, 0, 0.675);
+    color: aliceblue;
+    display: block;
+}
